@@ -10,5 +10,5 @@ for line in file:
 
 translator = Translator()
 text_to_translate = pyperclip.paste()
-translated_text = translator.translate(text_to_translate, dest='de').text
+translated_text = translator.translate(text_to_translate, dest=dest_lang).text
 pyperclip.copy(translated_text)
