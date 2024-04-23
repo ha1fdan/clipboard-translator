@@ -12,5 +12,3 @@ translator = Translator()
 text_to_translate = pyperclip.paste()
 translated_text = translator.translate(text_to_translate, dest='de').text
 pyperclip.copy(translated_text)
-
-print(f"Translated text: {translated_text}")
